@@ -9,7 +9,7 @@ public class Actividad4x14 {
 		final int INTENTOS = 5;
 		boolean acertado = false; 
 		
-		for (int i = INTENTOS; i > 0; i--) {
+		for (int i = INTENTOS; i > 0 && acertado; i--) {
 			int n = Teclado.leerEntero("Numero? ");
 			
 			if (n > SECRETO) {
@@ -20,10 +20,10 @@ public class Actividad4x14 {
 				System.out.println("Has fallado el numero secreto");
 				System.out.println("El numero " + n + " es menor que el numero secreto");
 
-			} else if (n == SECRETO) {
+			} else (n == SECRETO) {
 				System.out.println("Has acertado el numero secreto");
 				acertado = true;
-				break;
+				
 			}
 		}
 		if (!acertado) {
