@@ -13,19 +13,19 @@ public class Actividad3x06 {
 			if (ica <= 50) {
 				System.out.println("Bueno");
 			}
-			if (ica >= 51 && ica <= 100) {
+			else if (ica <= 100) {
 				System.out.println("Moderado");
 			}
-			if (ica >= 101 && ica <= 150) {
+			else if (ica <= 150) {
 				System.out.println("No Saludable para Grupos Sensibles");
 			}
-			if (ica >= 151 && ica <= 200) {
+			else if (ica <= 200) {
 				System.out.println("No Saludable para Toos");
 			}
-			if (ica >= 201 && ica <= 300) {
+			else if (ica <= 300) {
 				System.out.println("Insalubre");
 			}
-			if (ica >= 301 && ica <= 500) {
+			if (ica <= 500) {
 				System.out.println("Peligroso");
 			}
 		}
