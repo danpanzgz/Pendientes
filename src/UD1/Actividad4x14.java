@@ -20,7 +20,7 @@ public class Actividad4x14 {
 				System.out.println("Has fallado el numero secreto");
 				System.out.println("El numero " + n + " es menor que el numero secreto");
 
-			} else (n == SECRETO) {
+			} else {
 				System.out.println("Has acertado el numero secreto");
 				acertado = true;
 				
